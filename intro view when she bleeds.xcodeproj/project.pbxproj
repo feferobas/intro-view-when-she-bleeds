@@ -11,6 +11,7 @@
 		00156E9D2A6843E200BCD285 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00156E9C2A6843E200BCD285 /* ContentView.swift */; };
 		00156E9F2A6843E400BCD285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00156E9E2A6843E400BCD285 /* Assets.xcassets */; };
 		00156EA32A6843E400BCD285 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00156EA22A6843E400BCD285 /* Preview Assets.xcassets */; };
+		00156EAA2A68635100BCD285 /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00156EA92A68635100BCD285 /* secondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		00156E9E2A6843E400BCD285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00156EA02A6843E400BCD285 /* intro_view_when_she_bleeds.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = intro_view_when_she_bleeds.entitlements; sourceTree = "<group>"; };
 		00156EA22A6843E400BCD285 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00156EA92A68635100BCD285 /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 		00156E8E2A6843E200BCD285 = {
 			isa = PBXGroup;
 			children = (
+				00156EA92A68635100BCD285 /* secondView.swift */,
 				00156E992A6843E200BCD285 /* intro view when she bleeds */,
 				00156E982A6843E200BCD285 /* Products */,
 			);
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00156E9D2A6843E200BCD285 /* ContentView.swift in Sources */,
+				00156EAA2A68635100BCD285 /* secondView.swift in Sources */,
 				00156E9B2A6843E200BCD285 /* intro_view_when_she_bleedsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
