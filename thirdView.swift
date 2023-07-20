@@ -7,7 +7,7 @@
 
 import SwiftUI
 import UIKit
-struct ContentView: View {
+struct thirdView: View {
     /*   @objc func fireTimer() {
      print("Timer fired!")
      }
@@ -25,8 +25,8 @@ struct ContentView: View {
                 VStack {
                     HStack {
                         Spacer()
-                        NavigationLink(destination: thirdView()) {
-                            Text("Português")
+                        NavigationLink(destination: ContentView()) {
+                            Text("English")
                                 
                         } .padding()
                     }
@@ -39,8 +39,8 @@ struct ContentView: View {
                     }
                     Spacer()
                     if timeOut == "Welcome" {
-                            NavigationLink(destination: secondView()) {
-                                Text("Start")
+                            NavigationLink(destination: fourthView()) {
+                                Text("Começar")
                                     .font(.largeTitle)
                                     .fontWeight(.medium)
                             }
@@ -53,8 +53,9 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct thirdView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        thirdView()
     }
 }
+
